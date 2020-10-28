@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>LEARNING.COM</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <div class="brand">
+        <button onclick="openMenu()">
+          &#9776;
+        </button>
+        <a href="index.html">LEARNING.COM</a>
+      </div>
+      <div class="header-links">
+        <a href="signup.html">Sign up</a>
+        <a href="signin.html">Sign In</a>
+        <a href =" for faculty.html"> for faculty</a>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h3>ADDITIONAL RESOURCES</h3>
+      <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+      <ul>
+        <li>
+          <a href="index.html">EXPERTS HELP</a>
+        </li>
+
+        <li>
+          <a href="index.html">SCHOOL GROUP </a>
+        </li>
+
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="content">
+        <ul class="STUDY">
+          <li>
+            <div class="">
+              <img class="study-image" src="images/d1.jpeg" alt="study" />
+              <div class="study-name">
+                <a href="study.html">Study</a>
+              </div>
+              
+            
+          </li>
+          <li>
+            <div class="for teachers ">
+              <img class="for teachers-image" src="images/d2.jpeg" alt="FOR TEACHERS" />
+              <div class="for teachers-name">
+                <a href="for techers.html">for teachers</a>
+              </div>
+              
+          </li>
+          <li>
+            <div class="LIBRARY">
+              <img class="LIBRARY-image" src="images/d3.jpg" alt="LIBRARY" />
+              <div class="LIBRARY-name">
+                <a href="LIBRARY.html">for library</a>
+              </div>
+              
+          </li>
+          <li>
+            <div class="HOME SCHOOL">
+              <img class="HOME SCHOOL-image" src="images/d4.jpg" alt="HOME SCHOOL" />
+              <div class="HOMESCHOOL-name">
+                <a href="HOME SCHOOL.html">home school</a>
+              </div>
+              
+          </li>
+         
+
+        </ul>
+      </div>
+
+    </main>
+    <footer class="footer">
+      All right reserved.
+    </footer>
+  </div>
+  <script>
+    function openMenu() {
+      document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu() {
+      document.querySelector(".sidebar").classList.remove("open")
+    }
+  </script>
+</body>
+
+</html>
